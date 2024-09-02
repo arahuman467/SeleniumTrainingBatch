@@ -20,3 +20,4 @@ public class ExcelUtilities {
 		return cell.getStringCellValue();
 	}
 }
+

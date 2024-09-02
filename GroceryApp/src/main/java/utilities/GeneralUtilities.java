@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openxmlformats.schemas.drawingml.x2006.main.CTRegularTextRun;
 
 public class GeneralUtilities {
+	
 
 	public String getTextElement(WebElement element) {
 		return element.getText();

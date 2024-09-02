@@ -25,6 +25,7 @@ public class ManageCategoryPage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
 	@FindBy(xpath="//section//div[@class='container-fluid']//div//div[3]//div//a[@class='small-box-footer']")
 	WebElement categoryElement;
 	@FindBy(xpath="//a[@class='btn btn-rounded btn-danger']")

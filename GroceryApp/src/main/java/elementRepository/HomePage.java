@@ -17,6 +17,7 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 	
+	
 	@FindBy(xpath="//p[text()='Dashboard']")
 	WebElement dashboard;
 	@FindBy(xpath="//p[text()='Manage Product']")

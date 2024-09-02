@@ -18,6 +18,7 @@ public class ExtenetReport implements ITestListener {
 	ExtentSparkReporter sparkReporter;
 	ExtentReports reports;
 	ExtentTest test;
+	
 
 	public void configureReport() {
 		Date date = new Date();
