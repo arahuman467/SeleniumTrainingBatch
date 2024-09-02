@@ -76,3 +76,4 @@ public class ManageCategoryPageTest extends BaseClass {
 	}
 
 }
+
