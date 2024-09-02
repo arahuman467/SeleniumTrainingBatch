@@ -19,7 +19,6 @@ public class LoginPageTest extends BaseClass{
   @Test
   public void verifyLoginWithValidData() throws IOException {
 	  lp=new LoginPage(driver);
-//	  hp=new HomePage(driver);
 	  lp.sendUserName(loginDetails(0, 0));
 	  lp.sendPassword(loginDetails(0, 1));
 	  hp=lp.signInChain();
