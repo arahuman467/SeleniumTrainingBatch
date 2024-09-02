@@ -1,0 +1,12 @@
+<suite name="GroceryAppSuite">
+	<test name="ChromeTest">
+		<listeners>
+			<listener class-name="utilities.ExtenetReport"> </listener>
+			<listener class-name="utilities.RetryListener"> </listener>
+		</listeners>
+		<parameter name="Browser" value="Chrome"> </parameter>
+		<classes>
+			<class name="testCases.ManageProductPageTest"> </class>
+		</classes>
+	</test>
+</suite>
