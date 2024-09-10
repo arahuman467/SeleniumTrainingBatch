@@ -9,8 +9,6 @@ import constant.Constant;
 import elementRepository.HomePage;
 import elementRepository.LoginPage;
 
-
-
 public class HomePageTest extends BaseClass{
 	
 	LoginPage lp;
